@@ -1,0 +1,51 @@
+State Management
+Redux
+
+React 
+Data 
+Parent Component to child Component
+child Component updated some value
+Parent Component mei reflect 
+Pure React
+
+
+Tools - Redux
+Object in memory
+Store - contians all data for whole project
+
+so changes in any Component will reflect in whole project
+Centerlized store of data
+
+Drawback - Redux
+On reload store empty
+
+Redux Persist
+stringfy store object and save in localstorage of browser
+
+Redux
+STORE, ACTIONS, REDUCERS
+
+
+-----
+Store Plan
+
+Register Page
+New User 
+FORM SUBMIT 
+useState
+username, password, name
+
+Login Page
+Sign in User 
+FORM SUBMIT
+useState
+username, password
+After SUBMIT
+
+IF all Correct 
+Store
+JWT-TOKEN's PAYLOAD {id,username}
+
+{,…}
+data: "{\"TOKEN\":\"\",\"VALID_TILL\":\"\",\"AUTHENTICATED\":false,\"ERROR_MESSAGE\":\"\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzaGFrYXBub3JzaHdldGFAZ21haWwuY29tIiwiaWF0IjoxNjMzNzcwNTkxLCJleHAiOjE2MzQwMjk3OTF9.cz88w90KFtPYkZdw_RyArptUOcca-QlcRBg3B_06hgk\",\"username\":\"shakapnorshweta@gmail.com\",\"id\":1,\"isLoggedIn\":false,\"errorMessage\":\"Wrong Password\"}"
+_persist: "{\"version\":-1,\"rehydrated\":true}"
